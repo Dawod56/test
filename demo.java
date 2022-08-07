@@ -165,7 +165,7 @@ class remove_employee implements ActionListener{
         }
         // When cancel button pressed
         if(ae.getSource()==l2){
-            frame.setVisible(false);
+            frame.setVisible(true);
             details_page d=new details_page();
         }
         if(ae.getSource()==l6){
